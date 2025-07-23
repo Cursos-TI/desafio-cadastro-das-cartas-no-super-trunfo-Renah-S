@@ -41,7 +41,7 @@ int main() {
     printf("Cidade: %s\n", cidade);
     printf("População: %d\n", populacao);
     printf("Área: %.2fKm²\n", area);
-    printf("PIB: R$%.2f Bilhões de reais\n", PIB);
+    printf("PIB: R$%.2f Bilhões\n", PIB);
     printf("Pontos turísticos: %d\n", pontos);
     //Fim da Carta 1
 
@@ -81,7 +81,7 @@ int main() {
     printf("Cidade: %s\n", cidade);
     printf("População: %d\n", populacao);
     printf("Área: %.2fKm²\n", area);
-    printf("PIB: R$%.2f Bilhões de Reais\n", PIB);
+    printf("PIB: R$%.2f Bilhões\n", PIB);
     printf("Pontos turísticos: %d\n", pontos);
     //Fim da Carta 2
 
