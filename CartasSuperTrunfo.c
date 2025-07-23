@@ -1,15 +1,43 @@
 #include <stdio.h>
 
 int main() {
-    int populacao, pontos;
+    int populacao;
     float area, PIB;
-    char[20] nome, codigo;
+    char nome[20], codigo[5];
     
-    printf("Cadastro das cartas(Super Trunfo)\n");
+   /* printf("Cadastro das cartas(Super Trunfo)\n");
     
-    printf("Qual o nome da Cidade?\n");
-    scanf("%s", nome)
-    printf("%s", nome)
+    //Nome do estado 1
+    printf("Qual o nome do Estado?\n");
+    scanf("%s", nome);
+
+    //Código da Carta 1
+    printf("Qual o Código da carta?\n");
+    scanf("%s", codigo);
+*/
+    //População Carta 1
+    printf("Qual a População do Estado?\n");
+    scanf("%i", populacao);
+/*
+    //Área Carta 1
+    printf("Qual a Área do Estado?\n");
+    scanf("%f", area);
+
+    //PIB Carta 1
+    printf("Qual o PIB do Estado?\n");
+    scanf("%f", PIB);
+
+    //Pontos Turísticos Carta 1
+    printf("Quantos pontos turísticos tem esse Estado?\n");
+    scanf("%d", pontos);
+
+    printf("As Carácteristicas da Carta 1 são:\n");
+    printf("Nome: %s\n", nome);
+    printf("Código: %s\n", codigo);
+    printf("População: %i\n", populacao);
+    printf("Área: %f\n", area);
+    printf("PIB: %f\n", PIB);
+    printf("Pontos turísticos: %d", pontos);
 
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
